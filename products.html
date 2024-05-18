@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeHouse-кондитерлік кәсіпорындары</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: url('ффф.jpeg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .main-content {
+            background: white;
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 1200px;
+        }
+
+        .card {
+            margin-bottom: 30px;
+        }
+
+        .navbar {
+            background-color: #f8f9fa;
+        }
+
+        .navbar.fixed-top {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1030;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+        }
+
+        .content-wrapper {
+            padding-top: 70px; /* Adjust based on the height of your navbar */
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+    <img src="logo 2.png" width="90" height="30" class="d-inline-block align-top ml-4" alt="">
+    CakeHouse
+</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline ml-3" action="search.php" method="GET">
+                <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="content-wrapper">
+        <div class="container main-content mt-5 pt-5">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="cake1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Вупипай торты</h5>
+                            <p class="card-text">Кілегейлі ірімшікпен қапталған қара шоколадты губка тортына негізделген американдық торт. Торт шоколадты ганашпен толтырылған, вупи печеньесі мен жаңа піскен құлпынай бөліктерімен безендірілген.
+                                Құрамы:
+                                Сары май, ұн, какао, қопсытқыш, жұмыртқа, қант, шоколад, табиғи кілегей, сүзбе ірімшік, құлпынай.</p>
+                            <a href="contact.html" class="btn btn-primary">Тапсырыс беру</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="cake2 2.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Шоколад торты</h5>
+                            <p class="card-text">Сүзбе ірімшік пен кілегей негізіндегі шоколадты кілегейге малынған шоколадты печенье торттары.
+                                Құрамы:
+                                Жұмыртқа, қант, ұн, разрыхлитель, какао, кофе шәрбаты, табиғи кілегей, сүзбе, шоколад, пісте себілген, ақ шоколад.</p>
+                            <a href="contact.html" class="btn btn-primary">Тапсырыс беру </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="cake3.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Орео торты</h5>
+                            <p class="card-text">Шоколадты губка тортына және Oreo шоколад печеньесінің үгінділері бар сүзбе креміне негізделген торт.
+                                Құрамы:
+                                Жұмыртқа, қант, ұн, қопсытқыш, какао, табиғи крем, кілегейлі ірімшік, Oreo печеньелері.</п>
+                            <a href="contact.html" class="btn btn-primary">Тапсырыс беру</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="cake4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cake 4</h5>
+                            <p class="card-text">Кілегей тамшысы бар классикалық қаймақ қосылған қарақұмық балынан жасалған жұқа және хош иісті торттар. Барлығын сатудан бастаған ең алғашқы торт.
+                                Құрамы:
+                                Бал, қант, жұмыртқа, ұн, сода, сары май, табиғи кілегей, қаймақ.</p>
+                            <a href="#" class="btn btn-primary">Тапсырыс беру</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="cake5.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cake 5</h5>
+                            <p class="card-text">Безе мен ұсақталған тұтас пістеден жасалған, кілегейлі ірімшік кремі мен таңқураймен толтырылған қытырлақ орам. Жаңа піскен құлпынаймен безендірілген. Құрамында ұн жоқ.
+                                Құрамы:
+                                Пісте, қант, жұмыртқа, кілегей, кілегейлі ірімшік, таңқурай, құлпынай</п>
+                            <a href="#" class="btn btn-primary">Тапсырыс беру</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="cake6.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cake 6</h5>
+                            <p class="card-text">Француз бадам ұнынан жасалған торт, бір уақытта қытырлақ және нәзік, манго мен пассиферлік жемістермен толтырылған.
+                                Құрама:
+                                Бадам ұны, қант, қант ұнтағы, жұмыртқа, тағамдық бояу, сары май, табиғи крем, пассиферлік жеміс, манго конфиті.</p>
+                            <a href="#" class="btn btn-primary">Тапсырыс беру</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2024 CakeHouse. Все права защищены.☎ +77754925855</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

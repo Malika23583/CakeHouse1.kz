@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeHouse</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: pink;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            overflow-y: auto;
+        }
+
+        .main-content {
+            margin-left: 250px;
+            /* Same as the width of the sidebar */
+            flex: 1;
+            padding: 20px;
+        }
+
+        .card {
+            border: 2px solid green;
+            width: 200px;
+            height: 250px;
+            margin: 10px;
+        }
+
+        .card-body {
+            padding: 10px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+        }
+
+        .card-text {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h4>Наша продукция</h4>
+        <ul>
+            <li>Кәмпит</li>
+            <li>Торттар</li>
+            <li>Торттар</li>
+            <li>Балмұздақ торттары</li>
+            <li>Печеньелер</li>
+            <li>Үйлену торттары</li>
+        </ul>
+        <h4>Компания жаңалықтары</h4>
+        <p><strong>20/09/2024:</strong> Үйлену тойларына арналған жаңа опциялар. Біздің кондитер аспаздары сіздің назарыңызға өміріңіздегі ең маңызды оқиғаны тәтті ететін тамаша үйлену торттарын ұсынады.</p>
+        <p><strong>02.08.2024:</strong> Жеңілдіктер. Тек тамызда! 2000 рубльден асатын тапсырыстар үшін барлық өнімдерге 10%-ға дейінгі жеңілдіктер туралы хабарлаймыз.</p>
+        <p><strong>12-07-2024:</strong> Ас әзірлеудің ашылуы. Біздің кондитерлік өнімдеріміздің қасында қазір гастроном бар, онда кез келген адам біздің жаңа піскен өнімдерді тамашалай алады.</p>
+        <a href="#">Показать все</a>
+    </div>
+
+    <div class="main-content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+    <img src="logo 2.png" width="90" height="30" class="d-inline-block align-top ml-4" alt="">
+    CakeHouse
+</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <img src="y.jpeg" class="img-fluid">
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Торт "Вупи пай"</h5>
+                            <p class="card-text">Нежный торт с кремом и фруктами</p>
+                            <p class="card-text text-success">Цена: $20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Пирог "Орео"</h5>
+                            <p class="card-text">Пирог с начинкой на ваш выбор</p>
+                            <p class="card-text text-success">Цена: $15</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Капкейки ассорти</h5>
+                            <p class="card-text">Набор из различных капкейков</p>
+                            <p class="card-text text-success">Цена: $25</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Пирог "Орео"</h5>
+                            <p class="card-text">Пирог с начинкой на ваш выбор</p>
+                            <p class="card-text text-success">Цена: $15</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Торт "Медовик"</h5>
+                            <p class="card-text">С начинкой на ваш выбор</p>
+                            <p class="card-text text-success">Цена: $20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Рулет "Меренга"</h5>
+                            <p class="card-text">С начинкой на ваш выбор</p>
+                            <p class="card-text text-success">Цена: $10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Макаронс</h5>
+                            <p class="card-text">С начинкой на ваш выбор</p>
+                            <p class="card-text text-success">Цена: $15</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Булочки со сгущенкой</h5>
+                            <p class="card-text">С начинкой на ваш выбор</p>
+                            <p class="card-text text-success">Цена: $5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Леденцы</h5>
+                            <p class="card-text">Со вкусом на ваш выбор</p>
+                            <p class="card-text text-success">Цена: $10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="кондитеры.jpg" width="50%" class="mx-auto d-block">
+
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+                <span class="text-muted">© 2024 CakeHouse. Все права защищены.☎ +77754925855</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+/* Custom styles here */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    width: 100%;
+}
+.carousel-item img {
+    height: 300px; /* Установите желаемую высоту карусели здесь */
+    object-fit: cover; /* Заполнить область изображения */
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center; /* Выравнивание по центру */
+    background-image: url('фф.jpeg'); /* Изображение в качестве фона */
+    background-size: cover; /* Растягиваем изображение на всю площадь */
+    background-position: center; /* Центрируем изображение */
+    font-family: 'Arial', sans-serif; /* Красивый шрифт */
+    padding: 20px; /* Отступы внутри заголовка */
+    font-size: 2rem; /* Размер шрифта */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-with-text p {
+    
+    padding: 10px;
+}
+.image-with-text {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+}
+
+.image-with-text img {
+    margin-right: 20px; /* Отступ справа от изображения */
+    max-width: 30%; /* Максимальная ширина изображения */
+}
+
+.image-with-text2 p {
+    flex: 1; /* Растягиваем текст на всю доступную ширину */
+    background-color: pink; /* Цвет фона текста */
+    text-align: center; /* Центрируем текст */
+    max-width: 70%; /* Ограничиваем максимальную ширину текста */
+}
+
+.image-with-text2 {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+}
+
+.image-with-text2 img {
+    margin-left: 20px; /* Отступ слева от изображения */
+    max-width: 30%; /* Максимальная ширина изображения */
+}
+
+
+.card {
+            height: 100%;
+        }
+
+.card-body {
+            height: 400px; /* Adjust this value as needed */
+            overflow: hidden;
+        }
+
+.centered-text {
+            text-align: center;
+            color: red;
+        }
+
